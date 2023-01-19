@@ -1,4 +1,4 @@
-# Devops-Projects-16--App-deployment-on-kubernetes-Cluster
+# Devops-Projects-16-Deploying-Web-App-on-Kubernetes-Cluster-AWS
 ## Prereq
 
 * Setup domain for Kubernetes Cluster (C)
