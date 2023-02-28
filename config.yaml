@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: service
-        image: emailservice
+        image: gcr.io/google-samples/microservices-demo/emailservice:v0.5.1
         resources:
           requests:
             cpu: 100m
@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
       - name: service
-        image: recommendationservice
+        image: gcr.io/google-samples/microservices-demo/recommendationservice:v0.5.1
         ports:
         - containerPort: 8080
         env:
@@ -103,7 +103,7 @@ spec:
     spec:
       containers:
       - name: service
-        image: productcatalogservice
+        image: gcr.io/google-samples/microservices-demo/productcatalogservice:v0.5.1
         ports:
         - containerPort: 3550
         env:
@@ -147,7 +147,7 @@ spec:
     spec:
       containers:
       - name: service
-        image: paymentservice
+        image: gcr.io/google-samples/microservices-demo/paymentservice:v0.5.1
         ports:
         - containerPort: 50051
         env:
@@ -191,7 +191,7 @@ spec:
     spec:
       containers:
       - name: service
-        image: currencyservice
+        image: gcr.io/google-samples/microservices-demo/currencyservice:v0.5.1
         resources:
           requests:
             cpu: 100m
@@ -234,7 +234,7 @@ spec:
     spec:
       containers:
       - name: shippingservice
-        image: shippingservice
+        image: gcr.io/google-samples/microservices-demo/shippingservice:v0.5.1
         ports:
         - containerPort: 50051
         env:
@@ -278,7 +278,7 @@ spec:
     spec:
       containers:
       - name: adservice
-        image: adservice
+        image: gcr.io/google-samples/microservices-demo/adservice:v0.5.1
         ports:
         - containerPort: 9555
         env:
@@ -321,7 +321,7 @@ spec:
     spec:
       containers:
       - name: service
-        image: cartservice
+        image: gcr.io/google-samples/microservices-demo/cartservice:v0.5.1
         ports:
         - containerPort: 7070
         env:
@@ -415,7 +415,7 @@ spec:
     spec:
       containers:
       - name: checkoutservice
-        image: checkoutservice
+        image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.5.1
         ports:
         - containerPort: 5050
         env:
@@ -474,7 +474,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend
+        image: gcr.io/google-samples/microservices-demo/frontend:v0.5.1
         resources:
             requests:
               cpu: 100m
