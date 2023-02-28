@@ -54,7 +54,7 @@ spec:
   template:
     metadata:
       labels:
-        app: myapp
+        app: recommendationservice
     spec:
       containers:
       - name: service
