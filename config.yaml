@@ -509,11 +509,12 @@ metadata:
 spec:
 # clusterip: internal access
 # i need external access 
-  type: NodePort
+  type: LoadBalancer
+  #type: NodePort
   selector:
     app: frontend
   ports:
   - port: 80
     targetPort: 8080
-    nodePort: 31104
+   # nodePort: 31104
 
