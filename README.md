@@ -49,3 +49,5 @@ kubectl get nodes
 
 `aws ec2 create-volume --region us-east-2 --availability-zone us-east-2a --size 3 --volume-type gp2`
 
+ref: https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/release/kubernetes-manifests.yaml
+
